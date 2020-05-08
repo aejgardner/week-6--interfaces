@@ -4,7 +4,6 @@ namespace App\Shapes;
 
 class Circle implements ShapeInterface
 {
-
     private $radius;
 
     public function __construct(int $radius)
@@ -16,5 +15,4 @@ class Circle implements ShapeInterface
     {
        return pi() * ($this->radius * $this->radius);
     }
-
 }
